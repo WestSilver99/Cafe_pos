@@ -14,11 +14,11 @@ public class Calframe extends JFrame {
 	
 	
 	
-	JLabel y = (new JLabel("카드를 투입구에 넣어주세요."));
+	JLabel y = (new JLabel("카드를 투입구에 넣어주세요. "));
 	y.setFont(y.getFont().deriveFont(30.0f));
 	this.add(y);
 	
-	JLabel z = (new JLabel("현금은 카운터에 문의바랍니다."));
+	JLabel z = (new JLabel("현금은 카운터에 문의바랍니다. "));
 	z.setFont(z.getFont().deriveFont(30.0f));
 	this.add(z);
 	
